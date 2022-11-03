@@ -1,0 +1,36 @@
+:root {
+--primary-blue: #151B54;
+--primary-gold: #DFBD69;
+}
+
+#main-div {
+  width: 50%;
+  margin-top: 5%;
+}
+
+#div-apply {
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-blue);
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: var(--primary-blue);
+}
+
+p {
+  margin: 15px;
+}
+
+#div-button {
+  display: flex;
+  justify-content: center;
+}
