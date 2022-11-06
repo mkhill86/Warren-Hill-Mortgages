@@ -3,6 +3,10 @@
 --primary-gold: #DFBD69;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,6 +17,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 6;
+  border-bottom: #DFBD69 .1rem solid ;
 }
 
 #logo-container {
@@ -52,28 +57,25 @@ body {
 
 #header-container {
   width: auto;
+  display: block;
 }
 
 #header-img {
   width: 94%;
   z-index: 1;
-  position: absolute;
-  top: 20%;
-  right: 3%;
-  left: 3%;
+  margin: 10rem 3% 5rem 3%;
 }
 
 .white-card {
-  height: 30rem;
+  height: 20rem;
   width: 45%;
-  border: black 0.1rem solid;
+  border: grey 0.075rem solid;
   z-index: 2;
   position: absolute;
-  top: 80%;
+  top: 45rem;
   left: 27.5%;
   right: 27.5%;
   background-color: white;
-  border-radius: 5rem;
 }
 
 h1 {
@@ -81,19 +83,38 @@ h1 {
   font-size: 5rem;
   padding-bottom: 0%;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .h2-header {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .h3-header {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .p-header {
-  padding: 2rem;
+  padding: 0rem 2rem 1rem 3.5rem;
 }
+
+.about-container {
+  background-color: var(--primary-blue);
+  height: 50rem;
+  width: 100%;
+  display: block;
+}
+
+.contact-container {
+  background-color: white;
+  height: 50rem;
+  width: 100%;
+  display: block;
+}
+
+/* Adjusting for different screens sizes */
 
 @media (max-width: 1039px) {
   #header-img {
